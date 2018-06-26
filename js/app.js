@@ -30,6 +30,8 @@ function shuffle(array) {
 }
 
 
+
+
 /*
  * set up the event listener for a card. If a card is clicked:
  *  - display the card's symbol (put this functionality in another function that you call from this one)
@@ -40,3 +42,22 @@ function shuffle(array) {
  *    + increment the move counter and display it on the page (put this functionality in another function that you call from this one)
  *    + if all cards have matched, display a message with the final score (put this functionality in another function that you call from this one)
  */
+
+
+    let openList = [];
+    let matchList = [];
+    let counterOfMoves = 0;
+    const moveCounterDisplay = document.querySelector('.moves');
+    const deckOfCards = document.querySelector('.deck');
+    const starsPanel = document.querySelector('.stars');
+    const cards = document.querySelectorAll('.deck li');
+    const stars = starsPanel.querySelectorAll('li');
+    const restartButton = document.querySelector('.restart');
+    const restartButtonPopup = document.querySelector('.congratulations .restart')
+    let startTime;
+    let endTime;
+    let timerInterval;
+    let timerCounter = 0;
+    let timerMin = 0;
+
+    addRandomSymbolToCard(cards);
