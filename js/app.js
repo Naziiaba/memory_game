@@ -61,3 +61,8 @@ function shuffle(array) {
     let timerMin = 0;
 
     addRandomSymbolToCard(cards);
+
+
+  restartButton.addEventListener('click', function () {
+        resetGame();
+    })
