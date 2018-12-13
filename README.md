@@ -13,7 +13,7 @@ To get started, open `js/app.js` and start building out the app's functionality
 
 For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
-##How to play?
+## How to play?
 
 In this game Player has to match two card. If cards match, they color change to green. If all cards are green - Player wins! Player gets starts after finished game. Amount of stars depends from moves:
 
