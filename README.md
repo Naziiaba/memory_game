@@ -18,8 +18,11 @@ For specific, detailed instructions, look at the project instructions in the [Ud
 In this game Player has to match two card. If cards match, they color change to green. If all cards are green - Player wins! Player gets starts after finished game. Amount of stars depends from moves:
 
 3 stars - less than 30 moves.
+
 2 stars - between 30 - 50 moves.
+
 1 star - more than 50 moves.
+
 When Player will win, may type own name to leaderboard. Player`s score depends from combination time and moves.
 
 To play again just click reset button on the leaderboard.
